@@ -1,0 +1,149 @@
+* {
+  font-family: Open Sans, sans-serif;
+}
+.container {
+  width: 60vw;
+  position: relative;
+  margin: auto;
+}
+#benefits {
+  position: relative;
+  height: 60vh;
+  background-color: #f0efef;
+  color: #033048;
+  font-weight: 100;
+  font-size: 13px;
+}
+#testimony {
+  position: relative;
+  margin: auto;
+  background: url("../img/testimonial_bg.jpg");
+  background-size: cover;
+  height: 38vh;
+  color: #ffffff;
+}
+header {
+  position: relative;
+  margin: auto;
+  background: url("../img/header_bg.jpg");
+  background-size: cover;
+  height: 70vh;
+  color: #ffffff;
+}
+h1 {
+  position: absolute;
+  top: 3vh;
+  left: 8vw;
+  font-weight: 800;
+  font-size: 24px;
+}
+h2 {
+  position: relative;
+  top: 28vh;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+#top {
+  display: block;
+  position: relative;
+  top: 32vh;
+  margin: auto;
+  background-color: #f9e42e;
+  border: none;
+  border-radius: 5px;
+  width: 12vw;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+}
+h3 {
+  position: absolute;
+  top: 8vh;
+  left: 8vw;
+  font-weight: 600;
+  font-size: 20px;
+}
+section#benefits p {
+  position: absolute;
+  top: 15vh;
+  left: 8vw;
+  color: #606161
+}
+ul {
+  position: absolute;
+  top: 22vh;
+  left: 10vw;
+  line-height: 40px;
+  color: #606161;
+}
+section#testimony p{
+  position: relative;
+  width: 30vw;
+  top: 10vh;
+  margin: auto;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.8em;
+}
+p > q{
+  font-weight: normal;
+  font-style: italic;
+}
+#yellow {
+  position: relative;
+  background-color: #f9e42e;
+  height: 12vh;
+}
+#bottom {
+  display: block;
+  position: relative;
+  top: 3vh;
+  margin: auto;
+  background-color: #033048;
+  border: none;
+  border-radius: 5px;
+  width: 12vw;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+footer {
+  position: relative;
+  bottom: 5vh;
+  background-color: #121212;
+  height: 38vh;
+}
+h4 {
+  position:relative;
+  top: 8vh;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  color: #f9e42e;
+}
+#social {
+  position: relative;
+  top: 8vh;
+  width: 8vw;
+  margin: auto;
+  align-items: center;
+}
+img {
+  position: relative;
+  left: 1.3vw;
+  margin-right: 2vw;
+  height: 3vh;
+}
+footer p{
+  position: relative;
+  top: 15vh;
+  font-size: 9px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
