@@ -1,6 +1,7 @@
 * {
   font-family: Open Sans, sans-serif;
   font-weight: 300;
+  margin: 0;
 }
 .container {
   width: 60vw;
@@ -113,14 +114,12 @@ p > q{
   text-align: center;
 }
 footer {
-  position: relative;
-  bottom: 5vh;
   background-color: #121212;
   height: 38vh;
 }
 h4 {
   position:relative;
-  top: 5vh;
+  top: 7vh;
   font-size: 24px;
   font-weight: 800;
   text-align: center;
@@ -128,7 +127,7 @@ h4 {
 }
 #social {
   position: relative;
-  top: 7vh;
+  top: 13vh;
   width: 8vw;
   margin: auto;
   display: flex;
@@ -139,7 +138,7 @@ img {
 }
 footer p{
   position: relative;
-  top: 15vh;
+  top: 23vh;
   font-size: 9px;
   font-weight: 600;
   color: #ffffff;
