@@ -59,6 +59,7 @@ h2 {
   font-size: 14px;
   font-weight: 800;
   text-align: center;
+  color: #121212;
 }
 h3 {
   position: absolute;
@@ -94,19 +95,24 @@ p > q{
   font-style: italic;
 }
 #yellow {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
   background-color: #f9e42e;
-  height: 12vh;
 }
-#bottom {
-  display: block;
-  position: relative;
-  top: 3vh;
+#social {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
   margin: auto;
+  background-color: inherit;
+}
+button {
   background-color: #033048;
   border: none;
   border-radius: 5px;
-  width: 12vw;
+  width: 180px;
   padding: 10px;
   color: #ffffff;
   font-size: 12px;
@@ -115,32 +121,20 @@ p > q{
 }
 footer {
   background-color: #121212;
-  height: 38vh;
-}
-h4 {
-  position:relative;
-  top: 7vh;
-  font-size: 24px;
-  font-weight: 800;
   text-align: center;
+}
+h5 {
+  padding: 30px 0 20px 0;
+  font-weight: 800;
+  font-size: 24px;
   color: #f9e42e;
 }
-#social {
-  position: relative;
-  top: 13vh;
-  width: 8vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
-img {
-  height: 3vh;
+div img {
+  height: 18px;
 }
 footer p{
-  position: relative;
-  top: 23vh;
-  font-size: 9px;
+  padding: 30px;
   font-weight: 600;
+  font-size: 9px;
   color: #ffffff;
-  text-align: center;
 }
