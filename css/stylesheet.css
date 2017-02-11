@@ -128,20 +128,18 @@ h4 {
 }
 #social {
   position: relative;
-  top: 5vh;
-  width: 6vw;
+  top: 7vh;
+  width: 8vw;
   margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 img {
-  position: relative;
   height: 3vh;
-  margin: 15px;
 }
 footer p{
   position: relative;
-  top: 13vh;
+  top: 15vh;
   font-size: 9px;
   font-weight: 600;
   color: #ffffff;
