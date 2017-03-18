@@ -68,8 +68,8 @@ h1 {
 a {
   text-decoration: none;
 }
-a:visited{
-  color:inherit;
+a:visited {
+  color: inherit;
 }
 h2 {
   font-weight: 600;
